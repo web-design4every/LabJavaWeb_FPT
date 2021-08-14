@@ -1,0 +1,75 @@
+body{
+    background-color: #E7E7E7;
+}
+.container{
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+.main{
+    background: url(../images/bg.jpg);
+    width: 886px;
+    height: auto;
+    display: flex;
+}
+.left{
+    width: 67%;
+    height: auto;
+    padding-left: 85px;
+    padding-right: 40px;
+    padding-top: 20px;
+    border-right: 2px dotted lightgrey;
+}
+
+.title{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.title a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.image img{
+    width: 400px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.description{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.information{
+    float: right;
+    color: #42554e;
+    font-size: 11px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.error{
+    width: 100%;
+    height: auto;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+

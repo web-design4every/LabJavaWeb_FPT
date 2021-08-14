@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2021, 19:32:02 PM
+    Author     : Admin
+*/
+body{
+    font-family: 'Times New Roman';
+}
+.header{
+    padding: 15px 0 30px;
+    background-color: #722f31;
+}
+.header-inner{
+    width: 940px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #722f31;
+}
+.header-inner .img{
+    width: 100px;
+    height:90px; 
+    float: left;
+    padding-bottom: 2px;
+    margin-right: -20px;
+    margin-top: 2px;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: #fff;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 47px;
+    paddingTop: 8px;
+    margin-left: 94px;
+    text-transform: uppercase;
+}
+.subtitle{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 2px 0;
+    margin-left: 93.5px;
+}
+.nav{
+    height: auto;
+    padding-bottom: 0;
+    background-color: #303030;
+    margin-bottom: 0;
+    position: relative;
+    font-size: 16px; 
+}
+.nav-inner{
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+    border-right: 1px grey solid;
+    height: 40px;
+}
+.nav-inner ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav-inner li{
+    text-align: center;
+    border-left: 1px grey solid;
+    padding: 0 15px;
+    float: left;
+
+}
+
+.nav-inner li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+.activeHome{
+    font-weight: bold;
+}
+.activeContact{
+    font-weight: bold;
+}
+.activeGallery{
+    font-weight: bold;
+}

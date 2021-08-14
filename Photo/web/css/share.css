@@ -1,0 +1,41 @@
+.header{
+    margin: 0;
+    padding: 3px 15px;
+    background-color: #303030;
+}
+.header h4{
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    line-height: 38px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: normal;
+}
+.social{   
+    background-color: rgba(138,60,62,0.6);
+}
+.social img{
+    margin-right: 5px;
+    margin-left: -3px;
+}
+.social ul{
+    margin: 0;
+    list-style: none;
+    padding: 10px 15px;
+}
+.social ul li{
+    line-height: 22px;
+    display: flex;
+}
+body{
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+img{
+    margin-top: 2px;
+    height: 16px;
+    width: 16px;
+}
+.social ul li a{
+    color: #ffffff;
+}

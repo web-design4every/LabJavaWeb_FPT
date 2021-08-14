@@ -1,0 +1,58 @@
+.image img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 6px;
+    font-style: italic;
+    font-size: 14.4px;
+    line-height: 17.82px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.about{
+    color: #ffffff;
+    padding: 9.6px 0;
+    margin: 0;
+    line-height: 32.8px;
+    font-size: 28px
+}
+.about h3{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+}
+
+.about-detail{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 11px 0 22px;
+    line-height: 22px;
+
+}
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 105%;
+}
+.content img{
+    width: 100%;
+    height: auto;
+}
+.content li{
+    padding: 10px;
+    display:inline-block;
+    width: 29%;
+}
+.content li h4{    
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 9px 0;
+}
+.content li h4 a{           
+    color: white;
+}

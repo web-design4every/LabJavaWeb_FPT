@@ -1,0 +1,53 @@
+.description{
+    padding: 6px;
+    font-style: italic;
+    font-size: 14.4px;
+    line-height: 17.82px;
+    color: #fff;
+}
+.content{
+    width: 100%;
+}
+.about{
+    color: #ffffff;
+    padding: 9.6px 0;
+    margin: 0;
+    line-height: 32.8px;
+    font-size: 28px
+}
+.about h3{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+}
+
+.country p {
+    color: white;        
+    padding-bottom: 12px;
+}
+.content-contact h4{
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-weight: normal;
+
+}
+.infor table tr td{
+    padding-bottom: 12px;
+    color: #ffffff;
+}
+.infor table tr td:last-child{
+    padding-left: 12px;
+}   
+.map{
+    width: 100%;
+    background-image: url(../images/map.PNG);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.content-contact{
+    margin-top: 22px;
+}

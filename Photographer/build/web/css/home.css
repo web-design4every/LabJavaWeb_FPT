@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2021, 9:49:10 AM
+    Author     : Admin
+*/
+body{
+    position: relative;
+    background-color: #aa4043;
+    background-image: url(../images/kaleidoscope2.png);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: auto;
+    font-family: Aria;
+    height: 100%;
+}
+.container {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main{
+    height: auto;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-bottom: 40px; 
+}
+.left{
+    width: 85%;
+    height: auto;
+    padding: 22px 0;
+
+}
+.image img{
+    width: 100%;
+    height: auto 
+}
+.right{
+    padding: 22px;
+    padding-right: 0;
+    width: 30%;
+    height: auto;
+}
+.description{
+    padding: 6px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+.content{
+    margin-top: 40px;
+    width: 670px;
+}
+.about{
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 0;
+    line-height: 33px;
+    font-size: 28px
+}
+.about h3{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+.about-detail{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 11px 0 22px;
+}
+
+.content ul{
+    padding: 0;
+    display: inline-block;
+    width: 105%;
+}
+.content img{
+    width: 205px;
+    height: 135px;
+}
+.content li{
+    padding-right: 21px;
+    display:inline-block;
+    width: 210px;
+}
+.content li h4{           
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 11px 0;
+    color: #ffffff;
+}
+.content li h4 a{           
+    color: white;
+}
+.content li p{           
+    margin: 0 0 11px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.paging{
+    margin-top: 10px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px;
+}

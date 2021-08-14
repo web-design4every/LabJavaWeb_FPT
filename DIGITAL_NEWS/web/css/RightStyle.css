@@ -1,0 +1,36 @@
+.right{
+    width: 33%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+/*.shortDes{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}*/
+.inputTxt{
+    border: dashed 1px;
+    width: 150px;
+}
+.submitTxt{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+.list{
+    margin-bottom: 10px;
+    /*padding-right: 30px;*/
+}
+.list a{
+    color: #42554e;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.search{
+    padding-bottom: 20px;
+}
